@@ -4,7 +4,7 @@ Discord Bot Demo
 A beginner-friendly Discord bot built with discord.py.
 
 Features included:
-1. Secure token loading with .env.example
+1. Secure token loading with .env
 2. Slash command syncing
 3. Basic slash commands
 4. Embed messages
@@ -17,8 +17,8 @@ Project files:
 - .env.example
 - .gitignore
 - requirements.txt
-- .env.example.example
 
+Create a local .env file using .env.example as a template.
 .env.example example:
 DISCORD_TOKEN=your_discord_bot_token_here
 GUILD_ID=your_discord_server_id_here
